@@ -35,7 +35,7 @@ static PGESprite *hearts;
 
 static int score = 0;
 static char score_str[8] = "";
-static GFont *score_font = NULL;
+static GFont score_font = NULL;
 
 static int fruit_count = 0;
 static int fruit_level = 3;
